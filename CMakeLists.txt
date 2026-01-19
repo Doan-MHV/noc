@@ -11,3 +11,12 @@ target_link_libraries(0_Randomness_Walker PRIVATE ${SFML_LIBRARIES})
 
 add_executable(0_Random_Distribution 0_randomness/random_distribution.cpp)
 target_link_libraries(0_Random_Distribution PRIVATE ${SFML_LIBRARIES})
+
+add_executable(0_Skewed_Random_Distribution 0_randomness/skewed_random_walker.cpp)
+target_link_libraries(0_Skewed_Random_Distribution PRIVATE ${SFML_LIBRARIES})
+
+add_executable(0_Random_Walk_Tends_To_Right 0_randomness/random_walk_tends_to_right.cpp)
+target_link_libraries(0_Random_Walk_Tends_To_Right PRIVATE ${SFML_LIBRARIES})
+
+add_executable(0_exercise_3 0_randomness/exercise_3.cpp)
+target_link_libraries(0_exercise_3 PRIVATE ${SFML_LIBRARIES})
